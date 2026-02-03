@@ -145,7 +145,7 @@ export function CommercialSection() {
           >
             Infrastructure fiable
             <br />
-            <span className="text-gold">pour votre activité.</span>
+            <span className="text-sage">pour votre activité.</span>
           </h2>
 
           <p
@@ -167,7 +167,7 @@ export function CommercialSection() {
                 className="stat-item bg-card/60 backdrop-blur-sm border border-white/10 rounded-2xl p-4 lg:p-6 text-center"
               >
                 <stat.icon
-                  className="text-gold mx-auto mb-3"
+                  className="text-sage mx-auto mb-3"
                   size={24}
                 />
                 <div className="font-heading font-black text-white text-2xl lg:text-4xl mb-1">
