@@ -164,8 +164,8 @@ export function HeroSection() {
             <span className="word inline-block">L'électricité,</span>
             <br />
             <span className="word inline-block">exécutée</span>{' '}
-            <span className="word inline-block text-gold">avec</span>{' '}
-            <span className="word inline-block text-gold">précision.</span>
+            <span className="word inline-block text-sage">avec</span>{' '}
+            <span className="word inline-block text-sage">précision.</span>
           </h1>
 
           {/* Subheadline */}
@@ -206,13 +206,13 @@ export function HeroSection() {
             className="flex flex-wrap items-center gap-6"
           >
             <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-full px-5 py-3 border border-white/10">
-              <Shield className="text-gold" size={20} />
+              <Shield className="text-sage" size={20} />
               <span className="text-white/90 text-sm font-medium">
                 RBQ 0000-0000-01
               </span>
             </div>
             <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm rounded-full px-5 py-3 border border-white/10">
-              <Award className="text-gold" size={20} />
+              <Award className="text-sage" size={20} />
               <span className="text-white/90 text-sm font-medium">
                 CMMTQ certifié
               </span>
