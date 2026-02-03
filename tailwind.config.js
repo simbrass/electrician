@@ -16,9 +16,9 @@ module.exports = {
           lighter: "#141B2D",
         },
         gold: {
-          DEFAULT: "#F2B33D",
-          light: "#F6D78C",
-          dark: "#C9902A",  // ~20% darker (Material Green 700)
+          DEFAULT: "#4CAF50",  // Vibrant but balanced emerald (Google's Material Green 500)
+          light:  "#A5D6A7",  // ~25% lighter (Material Green 200)
+          dark:   "#388E3C",  // ~20% darker (Material Green 700)
         },
         gray: {
           text: "#A6A9B6",
