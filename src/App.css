@@ -1,0 +1,53 @@
+/* App-specific styles */
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Pin spacer fix for GSAP */
+.pin-spacer {
+  pointer-events: none !important;
+}
+
+.pin-spacer > * {
+  pointer-events: auto !important;
+}
+
+/* Section stacking */
+.section-pinned {
+  will-change: transform;
+}
+
+/* Prevent text selection during scroll animations */
+.section-pinned * {
+  user-select: none;
+}
+
+/* Re-enable text selection for content sections */
+#projects *,
+#contact * {
+  user-select: auto;
+}
+
+/* Mobile optimizations */
+@media (max-width: 1024px) {
+  .section-pinned {
+    min-height: 100svh;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
